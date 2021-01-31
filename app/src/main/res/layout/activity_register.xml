@@ -58,6 +58,40 @@
                             android:inputType="textPersonName"
                             android:maxLines="1" />
                     </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textScholarNumber"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+                        <EditText
+                            android:id="@+id/editScholarNumber"
+                            style="@style/modifiedEditText"
+                            android:hint="Scholar Number"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textHostelNumber"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+                        <EditText
+                            android:id="@+id/editHostelNumber"
+                            style="@style/modifiedEditText"
+                            android:hint="Hostel Number"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textRoomNumber"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+                        <EditText
+                            android:id="@+id/editRoomNumber"
+                            style="@style/modifiedEditText"
+                            android:hint="Room Number"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/textInputEmail"
                         style="@style/parent"
@@ -84,6 +118,7 @@
                         android:id="@+id/textInputPassword"
                         style="@style/parent"
                         android:layout_marginTop="@dimen/loginViewsMargin">
+
                         <EditText
                             android:id="@+id/editTextPassword"
                             style="@style/modifiedEditText"
