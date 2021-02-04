@@ -14,12 +14,20 @@
       app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
       app:layout_constraintTop_toTopOf="parent" />
 
-  <com.google.android.material.bottomnavigation.BottomNavigationView
+  <com.ismaeldivita.chipnavigation.ChipNavigationBar
       android:id="@+id/bottomNavigationView"
       android:layout_width="match_parent"
-      android:layout_height="60dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="10dp"
+android:background="@drawable/round_corner"
+      android:elevation="8dp"
+      app:cnb_menuResource="@menu/bottom_nav_menu"
+      app:cnb_orientationMode="horizontal"
+      app:cnb_radius="8dp"
+      app:cnb_unselectedColor="@color/black"
       app:layout_constraintBottom_toBottomOf="parent"
-      app:menu="@menu/bottom_nav_menu" />
-  
+      tools:layout_editor_absoluteX="30dp" />
+
 
   </androidx.constraintlayout.widget.ConstraintLayout>
